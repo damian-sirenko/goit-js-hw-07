@@ -1,0 +1,18 @@
+#name-input {
+  height: 40px;
+  width: 360px;
+  padding-left: 16px;
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+h1 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33em;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
