@@ -6,7 +6,12 @@ const onFormSubmit = (event) => {
 		email: formEl.email.value,
 		password: formEl.password.value,
 	}
-		console.log(info);
+		if (info.email === "" || info.password === "") {
+		alert('All form fields must be filled in')
+	} 
+			console.log(info);
+		
 	contactForm.reset();
 }
 contactForm.addEventListener('submit', onFormSubmit);
+ 
