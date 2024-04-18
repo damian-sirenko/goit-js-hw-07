@@ -6,11 +6,11 @@ const onFormSubmit = (event) => {
 		email: formEl.email.value.trim(),
 		password: formEl.password.value.trim(),
 	}
-		if (info.email === "" || info.password === "") {
+	if (info.email === "" || info.password === "") {
 		alert('All form fields must be filled in')
-	} 
-			console.log(info);
-		
+	} else {
+		console.log(info);
+	}
 	contactForm.reset();
 }
 contactForm.addEventListener('submit', onFormSubmit);
